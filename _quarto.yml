@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pune R UseR Group"
+  navbar:
+    tools:
+      - text: "<i class='fab fa-meetup'></i> Meetup"
+        href: https://meetup.com
+      - icon: github
+        href: https://github.com
+      - icon: linkedin
+        href: https://www.linkedin.com/company/pune-r-user-group/
+    left:
+      - href: index.qmd
+        text: Home
+      - text: About
+        menu:
+          - href: about/mission.qmd
+            text: Mission
+          - href: about/org-team.qmd
+            text: Organising Team
+      - href: events/index.qmd
+        text: Events
+      - href: blogs/index.qmd
+        text: Blogs
+
+
+
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+resources:
+  - include-in-header.html
+
+editor: visual

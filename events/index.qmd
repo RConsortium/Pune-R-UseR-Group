@@ -1,0 +1,6 @@
+---
+title: Events
+listing:
+  contents: events.yml
+  type: grid
+---

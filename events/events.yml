@@ -1,0 +1,10 @@
+- title: Event 1 Title
+  path: https://www.meetup.com/kolkata-r-user-group/events/305356712/?eventOrigin=group_past_events
+  image: images/testing_research_code.jpg
+  description: >
+    This is description for Event 1.
+  categories: [R, Software Development]
+  date: 2025-02-22
+
+
+
