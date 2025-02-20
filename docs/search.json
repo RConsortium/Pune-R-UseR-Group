@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Events",
+    "section": "",
+    "text": "Event 1 Title\n\n\n\nR\n\n\nSoftware Development\n\n\n\nThis is description for Event 1.\n\n\n\nFeb 22, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pune R UseR Group",
@@ -7,11 +14,11 @@
     "text": "What is Pune R UseR Group?\nWe are a group of R enthusiasts aiming to provide a platform for anyone interested to learn, share, discuss R as a programming language and its application."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "about/mission.html",
+    "href": "about/mission.html",
+    "title": "Mission",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Mission of the Pune R UseR Group:"
   },
   {
     "objectID": "about/org-team.html",
@@ -19,5 +26,19 @@
     "title": "Organising Team",
     "section": "",
     "text": "Meet the organising team:\n\nDisha Patil\nJyoti Bhogal\nMihir Arjunwadkar\nPranjali Sarjoshi\nRonak Shah"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
