@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ronak Shah">
 
-<title>Pune R UseR Group</title>
+<title>Introduction to Shiny – Pune R UseR Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Pune R UseR Group</span>
     </a>
   </div>
@@ -89,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -98,21 +99,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about/mission.html">
+    <a class="dropdown-item" href="../../about/mission.html">
  <span class="dropdown-text">Mission</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about/org-team.html">
+    <a class="dropdown-item" href="../../about/org-team.html">
  <span class="dropdown-text">Organising Team</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./events/index.html"> 
+    <a class="nav-link" href="../../events/index.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blogs/index.html"> 
+    <a class="nav-link" href="../../blogs/index.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
 </ul>
@@ -134,7 +135,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-pune-r-user-group" id="toc-what-is-pune-r-user-group" class="nav-link active" data-scroll-target="#what-is-pune-r-user-group">What is Pune R UseR Group?</a></li>
+  <li><a href="#introduction-to-shiny-build-interactive-web-apps-with-r" id="toc-introduction-to-shiny-build-interactive-web-apps-with-r" class="nav-link active" data-scroll-target="#introduction-to-shiny-build-interactive-web-apps-with-r"><strong>Introduction to Shiny: Build Interactive Web Apps with R</strong></a>
+  <ul class="collapse">
+  <li><a href="#what-is-r-shiny" id="toc-what-is-r-shiny" class="nav-link" data-scroll-target="#what-is-r-shiny"><strong>What is R Shiny?</strong></a></li>
+  <li><a href="#why-use-shiny" id="toc-why-use-shiny" class="nav-link" data-scroll-target="#why-use-shiny"><strong>Why Use Shiny?</strong></a></li>
+  <li><a href="#shiny-app-structure" id="toc-shiny-app-structure" class="nav-link" data-scroll-target="#shiny-app-structure"><strong>Shiny App Structure</strong></a></li>
+  <li><a href="#reactivity-the-power-of-shiny" id="toc-reactivity-the-power-of-shiny" class="nav-link" data-scroll-target="#reactivity-the-power-of-shiny"><strong>Reactivity: The Power of Shiny</strong></a></li>
+  <li><a href="#shiny-in-action" id="toc-shiny-in-action" class="nav-link" data-scroll-target="#shiny-in-action"><strong>Shiny in Action</strong></a></li>
+  <li><a href="#deploying-your-shiny-app" id="toc-deploying-your-shiny-app" class="nav-link" data-scroll-target="#deploying-your-shiny-app"><strong>Deploying Your Shiny App</strong></a></li>
+  <li><a href="#further-learning" id="toc-further-learning" class="nav-link" data-scroll-target="#further-learning"><strong>Further Learning</strong></a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><strong>Conclusion</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -143,13 +154,23 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pune R UseR Group</h1>
-</div>
+<h1 class="title">Introduction to Shiny</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">shiny</div>
+    <div class="quarto-category">Beginner</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ronak Shah </p>
+          </div>
+  </div>
     
   
     
@@ -160,11 +181,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-is-pune-r-user-group" class="level1">
-<h1>What is Pune R UseR Group?</h1>
-<p>We are a group of R enthusiasts aiming to provide a platform for anyone interested to learn, share, discuss R as a programming language and its application.</p>
+<section id="introduction-to-shiny-build-interactive-web-apps-with-r" class="level1">
+<h1><strong>Introduction to Shiny: Build Interactive Web Apps with R</strong></h1>
+<section id="what-is-r-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-r-shiny"><strong>What is R Shiny?</strong></h2>
+<p>Shiny is an R package that allows you to build interactive web applications without needing to learn HTML, CSS, or JavaScript. Whether you’re a data scientist, researcher, or business analyst, Shiny helps transform static reports into dynamic, web-based applications.</p>
+<p>With just a few lines of R code, you can create dashboards, visualize live data, and interact with datasets in real time.</p>
+</section>
+<section id="why-use-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="why-use-shiny"><strong>Why Use Shiny?</strong></h2>
+<p>Here’s why Shiny is a game-changer for R programmers:<br>
+✅ <strong>Easy to Get Started</strong> – No need for web development skills, if you know coding in R that is enough to get started in Shiny.<br>
+✅ <strong>Interactivity</strong> – Users can manipulate data and see updates instantly<br>
+✅ <strong>Data Visualization</strong> – Generate interactive plots and tables effortlessly<br>
+✅ <strong>Deploy Anywhere</strong> – Publish apps online with platforms like ShinyApps.io which is easy to share with others.</p>
+</section>
+<section id="shiny-app-structure" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-app-structure"><strong>Shiny App Structure</strong></h2>
+<p>Shiny apps are structured in three main ways:<br>
+1️⃣ <strong>Single File (app.R)</strong> – Everything (UI + server) is written in a single file.<br>
+2️⃣ <strong>Separate Files (ui.R &amp; server.R)</strong> – UI and backend logic are split into different files.<br>
+3️⃣ <strong>Shiny Frameworks (Golem, Rhino)</strong> – For advanced Shiny applications with modular structures.</p>
+</section>
+<section id="reactivity-the-power-of-shiny" class="level2">
+<h2 class="anchored" data-anchor-id="reactivity-the-power-of-shiny"><strong>Reactivity: The Power of Shiny</strong></h2>
+<p>Shiny’s <strong>reactivity</strong> makes apps dynamic. It works by updating outputs whenever inputs change.</p>
+<p>Reactivity in Shiny can be seen in different forms :<br>
+🔹 <strong>Reactive Inputs</strong> – User-provided values (e.g., text boxes, dropdowns)<br>
+🔹 <strong>Reactive Expressions</strong> – Automatically recalculates when inputs change<br>
+🔹 <strong>Reactive Outputs</strong> – Dynamically updates tables, plots, and text based on inputs<br>
+🔹 <strong>Observers</strong> – Executes actions (e.g., saving a file) without returning a value</p>
+</section>
+<section id="shiny-in-action" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-in-action"><strong>Shiny in Action</strong></h2>
+<p>Here are some real-world Shiny apps:<br>
+🔹 <strong>Basic Apps</strong> – <a href="https://shahronak.shinyapps.io/my_shiny_app/">Example 1</a><br>
+🔹 <strong>Advanced Dashboards</strong> – <a href="https://gisanddata.maps.arcgis.com/apps/dashboards/bda7594740fd40299423467b48e9ecf6">COVID-19 Dashboard</a><br>
+🔹 <strong>Creative Uses</strong> – <a href="https://nrennie.rbind.io/tidytuesday-shiny-app/">TidyTuesday App</a></p>
+</section>
+<section id="deploying-your-shiny-app" class="level2">
+<h2 class="anchored" data-anchor-id="deploying-your-shiny-app"><strong>Deploying Your Shiny App</strong></h2>
+<p>Once your app is ready, you can publish it on:<br>
+📌 <strong>ShinyApps.io</strong> – A free hosting platform (up to 5 apps, 25 active hours)<br>
+📌 <strong>RStudio Connect</strong> – Enterprise-level hosting for Shiny apps</p>
+</section>
+<section id="further-learning" class="level2">
+<h2 class="anchored" data-anchor-id="further-learning"><strong>Further Learning</strong></h2>
+<p>Want to dive deeper into Shiny? Check out these resources:<br>
+📖 <a href="https://shiny.posit.co/">Shiny Official Docs</a><br>
+📖 <a href="https://mastering-shiny.org/">Mastering Shiny</a><br>
+📖 <a href="https://shiny.posit.co/r/gallery/">Shiny Gallery</a></p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion"><strong>Conclusion</strong></h2>
+<p>Shiny is a powerful tool for turning R scripts into interactive web applications. Whether you’re analyzing data, building dashboards, or sharing insights, Shiny makes it simple and accessible.</p>
+<p>This post is inspired by Pune R UseR group talk on Introduction to shiny and the resources used for the talk can be <a href="https://github.com/shahronak47/Introduction-to-shiny">accessed on Github</a>.</p>
+<p>Are you ready to build your first Shiny app? Let’s get started! 🚀</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
