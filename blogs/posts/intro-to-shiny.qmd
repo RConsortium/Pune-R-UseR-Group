@@ -61,6 +61,6 @@ Want to dive deeper into Shiny? Check out these resources:\
 
 Shiny is a powerful tool for turning R scripts into interactive web applications. Whether you're analyzing data, building dashboards, or sharing insights, Shiny makes it simple and accessible.
 
-This post is inspired by Pune R UseR group talk on Introduction to shiny and the resources used for the talk can be [accessed on Github](https://github.com/shahronak47/Introduction-to-shiny).
+This post is inspired by Pune R UseR group talk on Introduction to Shiny and the resources used for the talk can be [accessed on Github](https://github.com/shahronak47/Introduction-to-shiny).
 
 Are you ready to build your first Shiny app? Let’s get started! 🚀
