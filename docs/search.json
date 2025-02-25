@@ -40,5 +40,75 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Introduction to Shiny\n\n\n\n\n\n\nshiny\n\n\nBeginner\n\n\n\n\n\n\n\n\n\nRonak Shah\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html",
+    "href": "blogs/posts/intro-to-shiny.html",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Shiny is an R package that allows you to build interactive web applications without needing to learn HTML, CSS, or JavaScript. Whether you’re a data scientist, researcher, or business analyst, Shiny helps transform static reports into dynamic, web-based applications.\nWith just a few lines of R code, you can create dashboards, visualize live data, and interact with datasets in real time.\n\n\n\nHere’s why Shiny is a game-changer for R programmers:\n✅ Easy to Get Started – No need for web development skills, if you know coding in R that is enough to get started in Shiny.\n✅ Interactivity – Users can manipulate data and see updates instantly\n✅ Data Visualization – Generate interactive plots and tables effortlessly\n✅ Deploy Anywhere – Publish apps online with platforms like ShinyApps.io which is easy to share with others.\n\n\n\nShiny apps are structured in three main ways:\n1️⃣ Single File (app.R) – Everything (UI + server) is written in a single file.\n2️⃣ Separate Files (ui.R & server.R) – UI and backend logic are split into different files.\n3️⃣ Shiny Frameworks (Golem, Rhino) – For advanced Shiny applications with modular structures.\n\n\n\nShiny’s reactivity makes apps dynamic. It works by updating outputs whenever inputs change.\nReactivity in Shiny can be seen in different forms :\n🔹 Reactive Inputs – User-provided values (e.g., text boxes, dropdowns)\n🔹 Reactive Expressions – Automatically recalculates when inputs change\n🔹 Reactive Outputs – Dynamically updates tables, plots, and text based on inputs\n🔹 Observers – Executes actions (e.g., saving a file) without returning a value\n\n\n\nHere are some real-world Shiny apps:\n🔹 Basic Apps – Example 1\n🔹 Advanced Dashboards – COVID-19 Dashboard\n🔹 Creative Uses – TidyTuesday App\n\n\n\nOnce your app is ready, you can publish it on:\n📌 ShinyApps.io – A free hosting platform (up to 5 apps, 25 active hours)\n📌 RStudio Connect – Enterprise-level hosting for Shiny apps\n\n\n\nWant to dive deeper into Shiny? Check out these resources:\n📖 Shiny Official Docs\n📖 Mastering Shiny\n📖 Shiny Gallery\n\n\n\nShiny is a powerful tool for turning R scripts into interactive web applications. Whether you’re analyzing data, building dashboards, or sharing insights, Shiny makes it simple and accessible.\nThis post is inspired by Pune R UseR group talk on Introduction to shiny and the resources used for the talk can be accessed on Github.\nAre you ready to build your first Shiny app? Let’s get started! 🚀"
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#what-is-r-shiny",
+    "href": "blogs/posts/intro-to-shiny.html#what-is-r-shiny",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Shiny is an R package that allows you to build interactive web applications without needing to learn HTML, CSS, or JavaScript. Whether you’re a data scientist, researcher, or business analyst, Shiny helps transform static reports into dynamic, web-based applications.\nWith just a few lines of R code, you can create dashboards, visualize live data, and interact with datasets in real time."
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#why-use-shiny",
+    "href": "blogs/posts/intro-to-shiny.html#why-use-shiny",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Here’s why Shiny is a game-changer for R programmers:\n✅ Easy to Get Started – No need for web development skills, if you know coding in R that is enough to get started in Shiny.\n✅ Interactivity – Users can manipulate data and see updates instantly\n✅ Data Visualization – Generate interactive plots and tables effortlessly\n✅ Deploy Anywhere – Publish apps online with platforms like ShinyApps.io which is easy to share with others."
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#shiny-app-structure",
+    "href": "blogs/posts/intro-to-shiny.html#shiny-app-structure",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Shiny apps are structured in three main ways:\n1️⃣ Single File (app.R) – Everything (UI + server) is written in a single file.\n2️⃣ Separate Files (ui.R & server.R) – UI and backend logic are split into different files.\n3️⃣ Shiny Frameworks (Golem, Rhino) – For advanced Shiny applications with modular structures."
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#reactivity-the-power-of-shiny",
+    "href": "blogs/posts/intro-to-shiny.html#reactivity-the-power-of-shiny",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Shiny’s reactivity makes apps dynamic. It works by updating outputs whenever inputs change.\nReactivity in Shiny can be seen in different forms :\n🔹 Reactive Inputs – User-provided values (e.g., text boxes, dropdowns)\n🔹 Reactive Expressions – Automatically recalculates when inputs change\n🔹 Reactive Outputs – Dynamically updates tables, plots, and text based on inputs\n🔹 Observers – Executes actions (e.g., saving a file) without returning a value"
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#shiny-in-action",
+    "href": "blogs/posts/intro-to-shiny.html#shiny-in-action",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Here are some real-world Shiny apps:\n🔹 Basic Apps – Example 1\n🔹 Advanced Dashboards – COVID-19 Dashboard\n🔹 Creative Uses – TidyTuesday App"
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#deploying-your-shiny-app",
+    "href": "blogs/posts/intro-to-shiny.html#deploying-your-shiny-app",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Once your app is ready, you can publish it on:\n📌 ShinyApps.io – A free hosting platform (up to 5 apps, 25 active hours)\n📌 RStudio Connect – Enterprise-level hosting for Shiny apps"
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#further-learning",
+    "href": "blogs/posts/intro-to-shiny.html#further-learning",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Want to dive deeper into Shiny? Check out these resources:\n📖 Shiny Official Docs\n📖 Mastering Shiny\n📖 Shiny Gallery"
+  },
+  {
+    "objectID": "blogs/posts/intro-to-shiny.html#conclusion",
+    "href": "blogs/posts/intro-to-shiny.html#conclusion",
+    "title": "Introduction to Shiny",
+    "section": "",
+    "text": "Shiny is a powerful tool for turning R scripts into interactive web applications. Whether you’re analyzing data, building dashboards, or sharing insights, Shiny makes it simple and accessible.\nThis post is inspired by Pune R UseR group talk on Introduction to shiny and the resources used for the talk can be accessed on Github.\nAre you ready to build your first Shiny app? Let’s get started! 🚀"
   }
 ]
