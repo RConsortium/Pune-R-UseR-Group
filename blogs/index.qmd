@@ -1,8 +1,6 @@
 ---
-title: "Blogs"
+title: Blogs
 listing:
-  contents: posts/*.qmd
-  sort: "date desc"
-  type: default
-  categories: true
+  contents: blogs.yml
+  type: grid
 ---

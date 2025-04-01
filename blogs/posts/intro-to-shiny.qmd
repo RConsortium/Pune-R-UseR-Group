@@ -15,7 +15,7 @@ With just a few lines of R code, you can create dashboards, visualize live data,
 ## **Why Use Shiny?**
 
 Here’s why Shiny is a game-changer for R programmers:\
-✅ **Easy to Get Started** – No need for web development skills, if you know coding in R that is enough to get started in Shiny. \
+✅ **Easy to Get Started** – No need for web development skills, if you know coding in R that is enough to get started in Shiny.\
 ✅ **Interactivity** – Users can manipulate data and see updates instantly\
 ✅ **Data Visualization** – Generate interactive plots and tables effortlessly\
 ✅ **Deploy Anywhere** – Publish apps online with platforms like ShinyApps.io which is easy to share with others.
@@ -31,7 +31,7 @@ Shiny apps are structured in three main ways:\
 
 Shiny’s **reactivity** makes apps dynamic. It works by updating outputs whenever inputs change.
 
-Reactivity in Shiny can be seen in different forms : \
+Reactivity in Shiny can be seen in different forms :\
 🔹 **Reactive Inputs** – User-provided values (e.g., text boxes, dropdowns)\
 🔹 **Reactive Expressions** – Automatically recalculates when inputs change\
 🔹 **Reactive Outputs** – Dynamically updates tables, plots, and text based on inputs\

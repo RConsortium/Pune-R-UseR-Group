@@ -5,8 +5,6 @@
   },
   {
     "listing": "/blogs/index.html",
-    "items": [
-      "/blogs/posts/intro-to-shiny.html"
-    ]
+    "items": []
   }
 ]
