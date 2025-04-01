@@ -2,4 +2,4 @@
 title: "Mission"
 ---
 
-Mission of the Pune R UseR Group:
+Fostering learning, collaboration, and community around the R programming language.
