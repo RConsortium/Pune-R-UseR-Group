@@ -18,5 +18,12 @@
   categories: [R, Software Development]
   date: 2025-04-26
 
+- title: LLMs with R
+  path: https://www.meetup.com/pune-r-userr-group/events/307877482/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link
+  image: images/Event_3_rug_pune.avif
+  description:
+    AfterJoin us for a session on leveraging Large Language Models through R programming!
+This talk will showcase the comprehensive toolkit available to R practitioners for LLM implementation. Whether you're analyzing text data, creating AI-powered dashboards, or automating content generation, discover how to harness transformer-based models efficiently using R's ecosystem. Perfect for data scientists and analysts looking to incorporate state-of-the-art NLP capabilities into their existing R workflows!
 
-
+  categories: [R, Software Development]
+  date: 2025-05-24
