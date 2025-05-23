@@ -20,8 +20,8 @@
 
 - title: LLMs with R
   path: https://www.meetup.com/pune-r-userr-group/events/307877482/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link
-  image:
+  image: images/Event_3_rug_pune.avif
   description:
     Join us for a session on leveraging Large Language Models through R programming!
   categories: [R, Software Development, LLM]
-  date: 2025-05-22
+  date: 2025-05-24
