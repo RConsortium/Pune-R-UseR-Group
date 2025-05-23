@@ -6,7 +6,7 @@
     Photo by <a href="https://unsplash.com/@boshkov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilija Boshkov</a> on
     <a href="https://unsplash.com/photos/a-computer-screen-with-a-program-running-on-it-0nI1DczRQAM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-  categories: [R, Software Development]
+  categories: [R, Software Development, R Shiny]
   date: 2025-02-22
 
 - title: R Shiny Hands-On
@@ -15,7 +15,7 @@
   description:
     After an amazing introduction to Shiny, we’re back with a follow-up meetup—this time, it’s all about getting our hands dirty! 🎯
 
-  categories: [R, Software Development]
+  categories: [R, Software Development, R Shiny]
   date: 2025-04-26
 
 - title: LLMs with R
@@ -23,5 +23,5 @@
   image:
   description:
     Join us for a session on leveraging Large Language Models through R programming!
-  categories: [R, Software Development]
+  categories: [R, Software Development, LLM]
   date: 2025-05-22
