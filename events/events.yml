@@ -25,3 +25,12 @@
     Join us for a session on leveraging Large Language Models through R programming!
   categories: [R, Software Development, LLM]
   date: 2025-05-24
+
+- title: Complete R package journey workshop
+  path: https://www.meetup.com/pune-r-userr-group/events/307877482/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link
+  image: images/r_package_development_workflow.png
+  description:
+    This talk will showcase the essential skills and tools needed to package your R code professionally - to turn your R scripts into powerful, shareable packages! Learn  documentation practices to create user friendly package guides. Perfect for data scientists and analysts, R practitioners to transform workflows. *Image credit: [R Packages 2e](https://r-pkgs.org/whole-game.html)*
+
+  categories: [R, Software Development, Package, Development, Documentation, devtools, usethis, roxygen2, Community, Open Science]
+  date: 2025-06-28
