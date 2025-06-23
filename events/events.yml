@@ -27,7 +27,7 @@
   date: 2025-05-24
 
 - title: Complete R package journey workshop
-  path: https://www.meetup.com/pune-r-userr-group/events/307877482/?utm_medium=referral&utm_campaign=announceModal_savedevents_share_modal&utm_source=link
+  path: https://www.meetup.com/pune-r-userr-group/events/308604075/
   image: images/r_package_development_workflow.png
   description: >
     This talk will showcase the essential skills and tools needed to package your R code professionally - to turn your R scripts into powerful, shareable packages! Learn  documentation practices to create user friendly package guides. Perfect for data scientists and analysts, R practitioners to transform workflows. Image credit: <a href="https://r-pkgs.org/whole-game.html">R Packages 2e</a>.
