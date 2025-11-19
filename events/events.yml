@@ -34,3 +34,30 @@
 
   categories: [R, Software Development, Package, Development, Documentation, devtools, usethis, roxygen2, Community, Open Science]
   date: 2025-06-28
+
+- title: 📦 R Package Show & Tell
+  path: https://www.meetup.com/pune-r-userr-group/events/308960711/?eventOrigin=group_events_list
+  image: images/event_5-july_2025.avif
+  description: >
+    Following our previous session on R package development, it's time to showcase what we've been building! This is your chance to present your R package creations, get valuable feedback from the community, and discover interesting packages others have been working on or studying. Image credit: <a href="https://r-pkgs.org/whole-game.html">R Packages 2e</a>.
+
+  categories: [R, Software Development, Package, Development, Documentation, devtools, usethis, roxygen2, Community, Open Science]
+  date: 2025-07-26
+
+- title: R meetup - learn and share
+  path: https://www.meetup.com/pune-r-userr-group/events/308960711/?eventOrigin=group_events_list
+  image: images/event_6-oct_2025.avif
+  description: >
+    Come for a peer group session where you bring your own projects or learning goals. We learn and share together in a collaborative environment.
+
+  categories: [R, Software Development, Package, Development, Documentation, RStudio, Positron, Community, Open Science]
+  date: 2025-10-25
+
+- title: Sharing R Tips That Changed Our Workflow
+  path: https://www.meetup.com/pune-r-userr-group/events/312002679/?eventOrigin=group_upcoming_events
+  image: images/event_7-nov_2025.webp
+  description: >
+    Looking to sharpen your R skills while connecting with fellow data enthusiasts? Join us for an engaging and beginner-friendly meetup where we share practical, time-saving R tips that make everyday work smoother.
+
+  categories: [R, Software Development, Package, Development, Documentation, RStudio, Positron, Community, Open Science]
+  date: 2025-11-22
