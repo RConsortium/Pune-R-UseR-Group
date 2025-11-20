@@ -8,20 +8,20 @@ RStudio and Positron are IDEs useful for running R programmign language code. In
 
 # RStudio IDE tips
 
-* **New Project for a new analysis**: For a new code, use New Project and then create the necesssary files (.R, .Rmd, .qmd, etc.) inside the New Project. This helps is keeping the r environment including the dependencies spearate for separate projects.
-* **Adopt a consistent folder structure**: Organise your project directory with subfolders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
-* **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
-* **Integrate Version Control using Git or GitHub**: RStudio has a built in **Terminal** as well as **Git** pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
-* **Spell Check feature**: Use the spell check feature from `Edit -> Check Spelling...` to ensure your code comments and documentation are free from typos. 
-* **History**: Go through the `History` tab to review previously run commands. You can easily re-run or copy commands from your history to save time.
-* **Environment**: Use this section to have a cursory look at the active variables and a glimpse of the values stored in them.
-* **Four panels in RStudio**: Familiarise yourself with the four-panel layout of RStudio (Source, Console, Environment/History, Files/Plots/Packages/Help). This layout helps you efficiently manage your coding, output, and resources.
-* **Running code in chunks**: In R markdown and quarto files, use the features to run selected lines, current chunk, next chunk, all the chunks, all the chunks above, and all the chunks below to efficiently test and run your code. 
+-   **New Project for a new analysis**: For a new code, use New Project and then create the necesssary files (.R, .Rmd, .qmd, etc.) inside the New Project. This helps is keeping the r environment including the dependencies spearate for separate projects.
+-   **Adopt a consistent folder structure**: Organise your project directory with subfolders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
+-   **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
+-   **Integrate Version Control using Git or GitHub**: RStudio has a built in **Terminal** as well as **Git** pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
+-   **Spell Check feature**: Use the spell check feature from `Edit -> Check Spelling...` to ensure your code comments and documentation are free from typos.
+-   **History**: Go through the `History` tab to review previously run commands. You can easily re-run or copy commands from your history to save time.
+-   **Environment**: Use this section to have a cursory look at the active variables and a glimpse of the values stored in them.
+-   **Four panels in RStudio**: Familiarise yourself with the four-panel layout of RStudio (Source, Console, Environment/History, Files/Plots/Packages/Help). This layout helps you efficiently manage your coding, output, and resources.
+-   **Running code in chunks**: In R markdown and quarto files, use the features to run selected lines, current chunk, next chunk, all the chunks, all the chunks above, and all the chunks below to efficiently test and run your code.
 
 # Positron IDE tips
 
-* **Tip 1**:
-* **Tip 2**:
-* **Tip 3**:
-* **Tip 4**:
-* **Tip 5**:
+-   **Tip 1**:
+-   **Tip 2**:
+-   **Tip 3**:
+-   **Tip 4**:
+-   **Tip 5**:

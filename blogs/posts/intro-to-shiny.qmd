@@ -2,6 +2,7 @@
 title: "Introduction to Shiny"
 author: "Ronak Shah"
 categories: [shiny, Beginner]
+image: ../images/ilija-boshkov-0nI1DczRQAM-unsplash.jpg
 ---
 
 # **Introduction to Shiny: Build Interactive Web Apps with R**
