@@ -25,7 +25,7 @@
     "href": "blogs/index.html",
     "title": "Blogs",
     "section": "",
-    "text": "Introduction to Shiny\n\n\n\nshiny\n\nBeginner\n\n\n\nAn introductory session on RShiny applications. Photo by Ilija…\n\n\n\nApr 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to Shiny\n\n\n\n\n\n\nRonak Shah\n\n\n\n\n\n\n\n\n\n\n\nRStudio and Positron IDE Tips to Make Your Workflows Efficient!\n\n\n\n\n\n\nJyoti Bhogal\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blogs/posts/intro-to-shiny.html",
@@ -110,5 +110,12 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blogs/posts/rstudio_and positron_ide_tips.html",
+    "href": "blogs/posts/rstudio_and positron_ide_tips.html",
+    "title": "RStudio and Positron IDE Tips to Make Your Workflows Efficient!",
+    "section": "",
+    "text": "RStudio and Positron are IDEs useful for running R programmign language code. In this blog, we will explore some tips and tricks to make your workflow more efficient while using these IDEs.\n\nRStudio IDE tips\n\nFor a new code, use New Project and then create the necesssary files (.R, .Rmd, .qmd, etc.) inside the New Project. This helps is keeping the r environment including the dependencies spearate for separate projects.\nTip 2\nTip 3\nTip 4"
   }
 ]

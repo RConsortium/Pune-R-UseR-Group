@@ -8,3 +8,14 @@
 
   categories: [shiny, Beginner]
   date: 2025-04-01
+
+- title: RStudio and Positron IDE Tips
+  path:
+  image: images/ilija-boshkov-0nI1DczRQAM-unsplash.jpg
+  description: >
+    This is a blog that enlists some RStudio and Positron IDE tips.
+    Photo by <a href="https://unsplash.com/@boshkov?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ilija Boshkov</a> on
+    <a href="https://unsplash.com/photos/a-computer-screen-with-a-program-running-on-it-0nI1DczRQAM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+  categories: [RStudio, Positron, Beginner]
+  date: 2025-11-20

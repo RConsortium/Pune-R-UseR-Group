@@ -1,6 +1,6 @@
 ---
 title: Blogs
 listing:
-  contents: blogs.yml
+  contents: posts/*.qmd
   type: grid
 ---

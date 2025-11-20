@@ -5,6 +5,9 @@
   },
   {
     "listing": "/blogs/index.html",
-    "items": []
+    "items": [
+      "/blogs/posts/intro-to-shiny.html",
+      "/blogs/posts/rstudio_and positron_ide_tips.html"
+    ]
   }
 ]

@@ -1,0 +1,14 @@
+---
+title: "RStudio and Positron IDE Tips to Make Your Workflows Efficient!"
+author: "Jyoti Bhogal"
+categories: [RStudio, Positron, Beginner]
+---
+
+RStudio and Positron are IDEs useful for running R programmign language code. In this blog, we will explore some tips and tricks to make your workflow more efficient while using these IDEs.
+
+# RStudio IDE tips
+
+* For a new code, use New Project and then create the necesssary files (.R, .Rmd, .qmd, etc.) inside the New Project. This helps is keeping the r environment including the dependencies spearate for separate projects.
+* Tip 2
+* Tip 3
+* Tip 4
