@@ -1,7 +1,7 @@
 ---
 title: "RStudio and Positron IDE Tips to Make Your Workflows Efficient!"
 author: "Jyoti Bhogal"
-categories: [RStudio, Positron, Beginner]
+categories: [RStudio, Positron, Data Science, IDE, Beginner]
 image: ../images/ilija-boshkov-0nI1DczRQAM-unsplash.jpg
 ---
 
@@ -19,8 +19,7 @@ RStudio is a free and open-source integrated development environment (IDE) that 
 -   **Adopt a consistent folder structure**: Organise your project directory with sub-folders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
 -   **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
 
-![Image: Starting a dynamic *R markdown* or *Quarto* document](../images/blog_2_dynamic_document.png)
-- **Integrate Version Control using Git or GitHub**: RStudio has a built in *Terminal* as well as a *Git* pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
+![Image: Starting a dynamic R markdown or Quarto document](../images/blog_2_dynamic_document.png) - **Integrate Version Control using Git or GitHub**: RStudio has a built in *Terminal* as well as a *Git* pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
 
 ![Image: Integrated git panel for version control](../images/blog_2_integrated_git_panel.png)
 
@@ -40,11 +39,18 @@ RStudio is a free and open-source integrated development environment (IDE) that 
 
 ![Image: Code chunks in an R markdown file](../images/blog_2_code_chunk.png)
 
+-   **Do not save workspace image**: It is suggested to not save the workspace image while exiting RStudio to make the analysis reproducible. Saving the workspace (`.RData` file) captures the state of your R session, including all loaded objects, variables, and functions. While convenient for restarting, it makes it difficult for others (or your future self) to reproduce your results without that specific `.RData` file. A truly reproducible analysis relies on a script that, when run from a clean environment, generates all necessary objects and results.
+
+![Image: Pop-up for saving the `.RData` file](../images/blog_2_workspace_dont_save.png)
+
 # Positron IDE tips
 
 Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio Code. Here are some tips to enhance your workflow in Positron:
 
--   **Tip 1**:
+-   **Easily switch between Python and R**: It supports Python and R equally well. In RStudio, if one tries to run Python, it requires them to install certain packages and also install Jupyter separately. In Positron, you can seamlessly switch between R and Python with just 2 click.
+
+![Image: Switching between *Python* and *R*](../images/blog_2_switch_python_r.png)
+
 -   **Tip 2**:
 -   **Tip 3**:
 -   **Tip 4**:

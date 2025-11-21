@@ -150,6 +150,8 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-categories">
     <div class="quarto-category">RStudio</div>
     <div class="quarto-category">Positron</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">IDE</div>
     <div class="quarto-category">Beginner</div>
   </div>
   </div>
@@ -235,12 +237,29 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Image: Code chunks in an R markdown file</figcaption>
 </figure>
 </div>
+<ul>
+<li><strong>Do not save workspace image</strong>: It is suggested to not save the workspace image while exiting RStudio to make the analysis reproducible. Saving the workspace (<code>.RData</code> file) captures the state of your R session, including all loaded objects, variables, and functions. While convenient for restarting, it makes it difficult for others (or your future self) to reproduce your results without that specific <code>.RData</code> file. A truly reproducible analysis relies on a script that, when run from a clean environment, generates all necessary objects and results.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_workspace_dont_save.png" class="img-fluid figure-img"></p>
+<figcaption>Image: Pop-up for saving the <code>.RData</code> file</figcaption>
+</figure>
+</div>
 </section>
 <section id="positron-ide-tips" class="level1">
 <h1>Positron IDE tips</h1>
 <p>Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio Code. Here are some tips to enhance your workflow in Positron:</p>
 <ul>
-<li><strong>Tip 1</strong>:</li>
+<li><strong>Easily switch between Python and R</strong>: It supports Python and R equally well. In RStudio, if one tries to run Python, it requires them to install certain packages and also install Jupyter separately. In Positron, you can seamlessly switch between R and Python with just 2 click.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_switch_python_r.png" class="img-fluid figure-img"></p>
+<figcaption>Image: Switching between <em>Python</em> and <em>R</em></figcaption>
+</figure>
+</div>
+<ul>
 <li><strong>Tip 2</strong>:</li>
 <li><strong>Tip 3</strong>:</li>
 <li><strong>Tip 4</strong>:</li>
