@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools tools-wide">
-    <a href="https://www.meetup.com/pune-r-userr-group/" title="<i class='fab fa-meetup'></i> Meetup" class="quarto-navigation-tool px-1" aria-label="<i class='fab fa-meetup'></i> Meetup"><i class="bi bi-"></i></a>
+    <a href="https://www.meetup.com/pune-r-userr-group/" title="https://www.meetup.com/pune-r-userr-group/" class="quarto-navigation-tool px-1" aria-label="https://www.meetup.com/pune-r-userr-group/"><i class="bi bi-"></i></a>
     <a href="https://github.com/RConsortium/Pune-R-UseR-Group" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
     <a href="https://www.linkedin.com/company/pune-r-user-group/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
@@ -194,7 +194,15 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Adopt a consistent folder structure</strong>: Organise your project directory with sub-folders for clarity, such as <code>data/</code> (with <code>raw/</code> and <code>processed/</code> subdirectories), <code>scripts/</code>, and <code>output/</code> (for figures and reports).</li>
 <li><strong>Create dynamic reports rather than static</strong>: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.</li>
 </ul>
-<p><img src="../images/blog_2_dynamic_document.png" class="img-fluid" alt="Image: Starting a dynamic R markdown or Quarto document"> - <strong>Integrate Version Control using Git or GitHub</strong>: RStudio has a built in <em>Terminal</em> as well as a <em>Git</em> pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_dynamic_document.png" class="img-fluid figure-img"></p>
+<figcaption>Image: Starting a dynamic R markdown or Quarto document</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Integrate Version Control using Git or GitHub</strong>: RStudio has a built in <em>Terminal</em> as well as a <em>Git</em> pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../images/blog_2_integrated_git_panel.png" class="img-fluid figure-img"></p>
@@ -249,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="positron-ide-tips" class="level1">
 <h1>Positron IDE tips</h1>
-<p>Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio Code. Here are some tips to enhance your workflow in Positron:</p>
+<p>Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio (VS) Code. Positron is actually a fork of VS Code. Here are some tips to enhance your workflow in Positron:</p>
 <ul>
 <li><strong>Easily switch between Python and R</strong>: It supports Python and R equally well. In RStudio, if one tries to run Python, it requires them to install certain packages and also install Jupyter separately. In Positron, you can seamlessly switch between R and Python with just 2 click.</li>
 </ul>
@@ -260,11 +268,43 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <ul>
-<li><strong>Tip 2</strong>:</li>
-<li><strong>Tip 3</strong>:</li>
-<li><strong>Tip 4</strong>:</li>
-<li><strong>Tip 5</strong>:</li>
+<li><p><strong>Familiarise yourself with the layout</strong>: The Activity bar on the left is similar to that in VS Code. The different panes in Positron IDE such as File Explorer, source code editor (Console, Terminal, etc.), Environment/Variables, Sessions, Help, and Plot.</p></li>
+<li><p><strong>Using Data Explorer</strong>: After creating/importing a data table, clicking on the Data Explorer icon gives a tabular view of the data along with a quick summary plot. Hovering onto the plots also gives more summary statistics. In the table view, similar to a Spreadsheet, one can filter or sort the rows.</p></li>
 </ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_data_explorer.png" class="img-fluid figure-img"></p>
+<figcaption>Image: Data Explorer</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Positron Assistant</strong>: This is an LLM integrated into the IDE. It can be used as a coding assistant. As of version Positron 2025.07.0-204, Anthropic can be used for chat and GitHub Copilot for code completion.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_coding_assistant.png" class="img-fluid figure-img"></p>
+<figcaption>Image: Coding assistant GitHub Copilot</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Help tab</strong>: The Help tab consists of Positron documentation, a Community Forum on GitHub, reporting a bug, cheatsheets, other Posit products, and posit support.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_help_tab.png" class="img-fluid figure-img"></p>
+<figcaption>Image: <em>Help</em> tab</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Access databases</strong>: The <strong>Connections</strong> tab can be use to access databases, which are essential for data science workflows efficiently. Down;load the essential prerequisite packages such as <code>DBI</code>, <code>RSQLite</code>, etc. with just one click and then create a new connection to the database.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/blog_2_databases.png" class="img-fluid figure-img"></p>
+<figcaption>Image: <em>Connections</em> tab to access databases</figcaption>
+</figure>
+</div>
+<p>I hope this blog helps you get started with RStudio and Positron IDEs and makes your workflow more efficient. Happy coding!</p>
 
 
 </section>

@@ -19,7 +19,9 @@ RStudio is a free and open-source integrated development environment (IDE) that 
 -   **Adopt a consistent folder structure**: Organise your project directory with sub-folders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
 -   **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
 
-![Image: Starting a dynamic R markdown or Quarto document](../images/blog_2_dynamic_document.png) - **Integrate Version Control using Git or GitHub**: RStudio has a built in *Terminal* as well as a *Git* pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
+![Image: Starting a dynamic R markdown or Quarto document](../images/blog_2_dynamic_document.png)
+
+-   **Integrate Version Control using Git or GitHub**: RStudio has a built in *Terminal* as well as a *Git* pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
 
 ![Image: Integrated git panel for version control](../images/blog_2_integrated_git_panel.png)
 
@@ -45,13 +47,28 @@ RStudio is a free and open-source integrated development environment (IDE) that 
 
 # Positron IDE tips
 
-Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio Code. Here are some tips to enhance your workflow in Positron:
+Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio (VS) Code. Positron is actually a fork of VS Code. Here are some tips to enhance your workflow in Positron:
 
 -   **Easily switch between Python and R**: It supports Python and R equally well. In RStudio, if one tries to run Python, it requires them to install certain packages and also install Jupyter separately. In Positron, you can seamlessly switch between R and Python with just 2 click.
 
 ![Image: Switching between *Python* and *R*](../images/blog_2_switch_python_r.png)
 
--   **Tip 2**:
--   **Tip 3**:
--   **Tip 4**:
--   **Tip 5**:
+-   **Familiarise yourself with the layout**:  The Activity bar on the left is similar to that in VS Code. The different panes in Positron IDE such as File Explorer, source code editor (Console, Terminal, etc.),  Environment/Variables, Sessions, Help, and Plot. 
+
+-   **Using Data Explorer**: After creating/importing a data table, clicking on the Data Explorer icon gives a tabular view of the data along with a quick summary plot. Hovering onto the plots also gives more summary statistics. In the table view, similar to a Spreadsheet, one can filter or sort the rows.
+
+![Image: Data Explorer](../images/blog_2_data_explorer.png)
+
+-   **Positron Assistant**: This is an LLM integrated into the IDE. It can be used as a coding assistant. As of version Positron 2025.07.0-204, Anthropic can be used for chat and GitHub Copilot for code completion.
+
+![Image: Coding assistant GitHub Copilot](../images/blog_2_coding_assistant.png)
+
+-   **Help tab**: The Help tab consists of Positron documentation, a Community Forum on GitHub, reporting a bug, cheatsheets, other Posit products, and posit support.
+
+![Image: *Help* tab](../images/blog_2_help_tab.png)
+
+-   **Access databases**: The **Connections** tab can be use to access databases, which are essential for data science workflows efficiently. Down;load the essential prerequisite packages such as `DBI`, `RSQLite`, etc. with just one click and then create a new connection to the database.
+
+![Image: *Connections* tab to access databases](../images/blog_2_databases.png)
+
+I hope this blog helps you get started with RStudio and Positron IDEs and makes your workflow more efficient. Happy coding!
