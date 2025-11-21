@@ -6,10 +6,10 @@ website:
   title: "Pune R UseR Group"
   navbar:
     tools:
-      - text: "<i class='fab fa-meetup'></i> Meetup"
-        href: https://meetup.com
+      - image: "meetup.png"
+        href: https://www.meetup.com/pune-r-userr-group/
       - icon: github
-        href: https://github.com
+        href: https://github.com/RConsortium/Pune-R-UseR-Group
       - icon: linkedin
         href: https://www.linkedin.com/company/pune-r-user-group/
     left:
