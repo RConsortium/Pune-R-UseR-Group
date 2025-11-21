@@ -2,23 +2,46 @@
 title: "RStudio and Positron IDE Tips to Make Your Workflows Efficient!"
 author: "Jyoti Bhogal"
 categories: [RStudio, Positron, Beginner]
+image: ../images/ilija-boshkov-0nI1DczRQAM-unsplash.jpg
 ---
 
-RStudio and Positron are IDEs useful for running R programmign language code. In this blog, we will explore some tips and tricks to make your workflow more efficient while using these IDEs.
+RStudio and Positron are IDEs useful for running R programming language code. In this blog, we will explore some tips and tricks to make your workflow more efficient while using these IDEs.
 
 # RStudio IDE tips
 
--   **New Project for a new analysis**: For a new code, use New Project and then create the necesssary files (.R, .Rmd, .qmd, etc.) inside the New Project. This helps is keeping the r environment including the dependencies spearate for separate projects.
--   **Adopt a consistent folder structure**: Organise your project directory with subfolders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
--   **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
--   **Integrate Version Control using Git or GitHub**: RStudio has a built in **Terminal** as well as **Git** pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
--   **Spell Check feature**: Use the spell check feature from `Edit -> Check Spelling...` to ensure your code comments and documentation are free from typos.
--   **History**: Go through the `History` tab to review previously run commands. You can easily re-run or copy commands from your history to save time.
--   **Environment**: Use this section to have a cursory look at the active variables and a glimpse of the values stored in them.
+RStudio is a free and open-source integrated development environment (IDE) that enhances the user experience for the R programming language. Here are some tips to enhance your workflow in RStudio:
+
+-   **New Project for a new analysis**: For a new code, use New Project and then create the necessary files (.R, .Rmd, .qmd, etc.) inside the New Project. This helps is keeping the r environment including the dependencies separate for separate projects.
+
+![Image: Starting a 'New Project'](../images/blog_2_new_project.png)
+
 -   **Four panels in RStudio**: Familiarise yourself with the four-panel layout of RStudio (Source, Console, Environment/History, Files/Plots/Packages/Help). This layout helps you efficiently manage your coding, output, and resources.
+-   **Adopt a consistent folder structure**: Organise your project directory with sub-folders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
+-   **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
+![Image: Starting a dynamic *R markdown* or *Quarto* document](../images/blog_2_dynamic_document.png)
+- **Integrate Version Control using Git or GitHub**: RStudio has a built in *Terminal* as well as a *Git* pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
+
+![Image: Integrated git panel for version control](../images/blog_2_integrated_git_panel.png)
+
+-   **Spell Check feature**: Use the spell check feature from `Edit -> Check Spelling...` to ensure your code comments and documentation are free from typos.
+
+![Image: Spell check feature in *Edit* menu](../images/blog_2_spell_check.png)
+
+-   **History**: Go through the `History` tab to review previously run commands. You can easily re-run or copy commands from your history to save time.
+
+![Image: *History* tab](../images/blog_2_history.png)
+
+-   **Environment**: Use this section to have a cursory look at the active variables and a glimpse of the values stored in them.
+
+![Image: *Environment* tab](../images/blog_2_environment.png)
+
 -   **Running code in chunks**: In R markdown and quarto files, use the features to run selected lines, current chunk, next chunk, all the chunks, all the chunks above, and all the chunks below to efficiently test and run your code.
 
+![Image: Code chunks in an R markdown file](../images/blog_2_code_chunk.png)
+
 # Positron IDE tips
+
+Positron is an IDE that combines exploration and production work in one free, AI-assisted environment, empowering the full spectrum of data science in Python and R. It helps to quickly move from data to insight to application in one code editor. The UI is rather similar to that of Visual Studio Code. Here are some tips to enhance your workflow in Positron:
 
 -   **Tip 1**:
 -   **Tip 2**:

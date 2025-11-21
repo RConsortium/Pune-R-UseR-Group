@@ -1,0 +1,18 @@
+---
+title: "sample"
+output: html_document
+---
+
+```{r}
+a = c(2,5,8,3,-10,4.5)
+```
+
+```{r}
+car = data.frame("Model_Name"=c("creta","zen","swift"),"Mileage"=c("25","30","34"))
+print(car)
+```
+
+```{r}
+x <- c(0,1,3,2,0,1,1,3,2,4,0,7,1,2,1,3,4,2)
+hist(x, main="Histogram of x", xlab="Values", ylab="Frequency", col="lightblue", border="black")
+```
