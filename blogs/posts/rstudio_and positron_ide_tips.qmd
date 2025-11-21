@@ -18,6 +18,7 @@ RStudio is a free and open-source integrated development environment (IDE) that 
 -   **Four panels in RStudio**: Familiarise yourself with the four-panel layout of RStudio (Source, Console, Environment/History, Files/Plots/Packages/Help). This layout helps you efficiently manage your coding, output, and resources.
 -   **Adopt a consistent folder structure**: Organise your project directory with sub-folders for clarity, such as `data/` (with `raw/` and `processed/` subdirectories), `scripts/`, and `output/` (for figures and reports).
 -   **Create dynamic reports rather than static**: One can use R markdown or a quarto file to create a dynamic output document, slides, or website. This allows you to integrate code and narrative text, making it easier to update and reproduce your analysis.
+
 ![Image: Starting a dynamic *R markdown* or *Quarto* document](../images/blog_2_dynamic_document.png)
 - **Integrate Version Control using Git or GitHub**: RStudio has a built in *Terminal* as well as a *Git* pane to help you manage version control. This allows you to track code or text changes, collaborate with others on shared and/or open source projects, and maintain a history of your project.
 
