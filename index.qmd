@@ -7,3 +7,6 @@ title: "Pune R UseR Group"
 We are a group of R enthusiasts aiming to provide a platform for anyone interested to learn, share, discuss R as a programming language and its application.
 
 ![](Event_3_rug_pune.avif)
+
+
+![April 2026 meetup](pune_rug_april_2026.jpeg)
